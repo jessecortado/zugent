@@ -1,0 +1,21 @@
+~Owner.FirstName~,
+
+You have had this listing for 30 days. If you have not called them then you may want to today. Keep in touch with your sellers.
+
+Ask for a reduction if you feel it will help attract an offer faster.
+
+In most cases, a small adjustment in price will increase the number of showings you get on a listing which gives you a better chance of getting an offer.
+
+More Showings = More Offers = More Sales = More Happy Clients
+
+Prospect Information:
+
+First: ~Contact.FirstName~
+
+Last: ~Contact.LastName~
+
+Phone: ~Contact.Phone1~
+
+Email: ~Contact.Email~
+
+A Greg Harrelson Real Estate Tip

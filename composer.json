@@ -1,0 +1,15 @@
+{
+    "require": {
+	"aws/aws-sdk-php": "2.*",
+	"troydavisson/phrets": "2.*",
+	"facebook/graph-sdk": "^5.5",
+	"twilio/sdk": "^5.11",
+	"stripe/stripe-php": "^4.0",
+        "php-http/curl-client": "^1.7",
+        "guzzlehttp/psr7": "^1.4",
+        "php-http/message": "^1.6",
+        "happyr/linkedin-api-client": "^1.0",
+        "abraham/twitteroauth": "^0.7.4",
+        "mpdf/mpdf": "^7.1"
+    }
+}

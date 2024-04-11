@@ -1,0 +1,23 @@
+Street Address
+City
+State
+Postal Code
+
+
+How Many Bedrooms:
+
+How Many Bathrooms:
+
+Heated SQFT:
+
+Overal SQFT:
+
+Do you have a Garage?
+
+
+---
+
+
+Thank you page:
+
+Thank you, from your real estate expert. We will contact you shortly

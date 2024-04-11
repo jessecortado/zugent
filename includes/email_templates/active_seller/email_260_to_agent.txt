@@ -1,0 +1,27 @@
+~Owner.FirstName~
+
+For most agents, it is easier to avoid talking to owners of properties that have been listed with you for awhile and remain unsold.
+
+Unsold inventory is a huge opportunity for you.
+
+You already did the hard work - getting the listing.
+
+Take the next step and ask them for a reduction. Even if you have already reduced it one time, ask again. Let’s face it, there is some reason why it is not selling and others properties in the market are selling.
+
+At the least, show them your commitment by giving the seller a call.
+
+It has been 30 days since your last reminder.
+
+By the way…the seller will appreciate you for staying in touch.
+
+Prospect Information:
+
+First: ~Contact.FirstName~
+
+Last: ~Contact.LastName~
+
+Phone: ~Contact.Phone1~
+
+Email: ~Contact.Email~
+
+A Greg Harrelson Real Estate Tip

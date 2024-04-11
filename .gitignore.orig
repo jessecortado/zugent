@@ -1,0 +1,8 @@
+vendor
+.idea
+vendor
+.DS_Store
+composer.lock
+.htaccess
+mpdf
+/htdocs/services/mobile/*.php

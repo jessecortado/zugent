@@ -1,0 +1,17 @@
+An email was sent to your seller yesterday about possibly posting their property details on Facebook.
+
+It is recommended that you immediately go to their Facebook profile and post their listing. Posting on THEIR profile page is better than your own because this allows their family and friends to see the details, which gives you free marketing exposure.
+
+If they have no FB profile, then disregard.
+
+Prospect Information:
+
+First: ~Contact.FirstName~
+
+Last: ~Contact.LastName~
+
+Phone: ~Contact.Phone1~
+
+Email: ~Contact.Email~
+
+A Greg Harrelson Real Estate Tip

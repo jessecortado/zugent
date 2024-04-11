@@ -1,0 +1,19 @@
+~Owner.FirstName~,
+
+This listing is about to expire.
+
+You should call this listing immediately and see if you can get it extended.
+
+Because the seller has been in the Active Seller Campaign and you have stayed in touch, it is very likely that they are satisfied and want to continue working with you.
+
+Prospect Information:
+
+First: ~Contact.FirstName~
+
+Last: ~Contact.LastName~
+
+Phone: ~Contact.Phone1~
+
+Email: ~Contact.Email~
+
+A Greg Harrelson Real Estate Tip

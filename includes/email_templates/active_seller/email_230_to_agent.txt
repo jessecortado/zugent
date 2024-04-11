@@ -1,0 +1,21 @@
+~Owner.FirstName~,
+
+Another 30 days has gone by and the property is unsold. This unsold listing is money held hostage. Meaning, if you get this sold, you get paid.
+
+How about asking for a price reduction? What is the worst thing that can happen, they say NO?
+
+If they say NO, then you are no worse off. If they say YES, you may get paid.
+
+Give them a call so they know you have not forgot about them.
+
+Prospect Information:
+
+First: ~Contact.FirstName~
+
+Last: ~Contact.LastName~
+
+Phone: ~Contact.Phone1~
+
+Email: ~Contact.Email~
+
+A Greg Harrelson Real Estate Tip

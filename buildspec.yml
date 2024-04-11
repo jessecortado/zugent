@@ -1,0 +1,18 @@
+version: 0.2
+environment_variables:
+    plaintext:
+        BUILD_ENV: "prod"
+phases:
+    install:
+        commands:
+            - echo Installing source NPM dependencies.
+    build:
+        commands:
+            - echo Build started on `date`
+            - php composer.phar install --ignore-platform-reqs
+    post_build:
+         commands:
+            - echo Build completed on `date`
+artifacts:
+    files:
+        - '**/*'

@@ -1,0 +1,31 @@
+~Owner.FirstName~,
+
+You have had this listing for nearly 4 months. Hopefully, you have asked for a price reduction already. If not, you may want to do that now.
+
+If a property has been exposed to this many buyers (through the MLS) and still not sold, it may be the price. Ultimately, you have to be the judge of that.
+
+It is recommended that you call the owner and tell them that you will do the following in order to generate new interest.
+
+Your seller needs to know that you are working hard for them.
+
+1) Send a flyer to multiple agents in the MLS reminding them of your listing. (This works really well if you get a new price)
+
+2) Send a mass email to your buyer database letting them know about this listing. (This also works really well if you get a new price)
+
+3) Personally call 5 agents in your market that have sold in the area of your listing and ask them if they have any buyers for the property. This will help keep your listing at the top of their minds.
+
+If you took a 6 month listing, you don’t have much time before it runs out.
+
+Following these tips will improve your chances of getting the listing sold AND will increase your chances that the seller will relist with you because they see you are working hard.
+
+Prospect Information:
+
+First: ~Contact.FirstName~
+
+Last: ~Contact.LastName~
+
+Phone: ~Contact.Phone1~
+
+Email: ~Contact.Email~
+
+A Greg Harrelson Real Estate Tip

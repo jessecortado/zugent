@@ -1,0 +1,1116 @@
+/* -------------------------------
+   1.0 General Reset & Setup
+------------------------------- */
+
+/* 1.1 Reset and Overrides */
+
+body {
+    background: #fff;
+    font-family: 'Open Sans', "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #707478;
+    font-size: 12px;
+}
+.ie8 body {
+    font-family: Arial,sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 500;
+    color: #242a30;
+    margin-top: 0;
+    margin-bottom: 15px;
+    line-height: 1.25;
+}
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+    font-size: 60%;
+    font-weight: 300;
+    color: #7c7f83;
+}
+a {
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    transition: all .2s linear;
+}
+a:focus {
+    outline: none;
+}
+label {
+    color: #242a30;
+}
+p {
+    font-size: 12px;
+    line-height: 20px;
+}
+.row {
+    margin: 0 -15px;
+}
+.row > [class*="col-"] {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.contentAnimated {
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.finishAnimated {
+    -webkit-animation: none !important;
+    animation: none !important;
+}
+
+
+/* 1.2 Page Setting */
+
+body.page-navbar-fixed-top {
+    padding-top: 70px;
+}
+body.page-navbar-fixed-top-sm {
+    padding-top: 51px;
+}
+
+
+
+/* -------------------------------
+   2.0 Header Setting
+------------------------------- */
+
+/* 2.1 Navbar Setting */
+
+.header.navbar {
+    border-bottom: none;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    transition: all .2s linear;
+}
+.header.navbar .navbar-nav > li > a {
+    font-size: 12px;
+    line-height: 20px;
+    color: #2d353c;
+    font-weight: 600;
+    padding: 25px 15px;
+}
+.header.navbar .navbar-nav > li.active > a,
+.header.navbar .navbar-nav > li > a:hover,
+.header.navbar .navbar-nav > li > a:focus {
+    background: none;
+}
+
+
+/* 2.2 Navbar Brand Logo & Text Setting */
+
+.header .navbar-brand {
+    padding-bottom: 25px;
+}
+.brand-logo {
+	border: 0px;
+	margin: 0px;
+}
+.brand-logo + .brand-text {
+    margin-left: 42px;
+    display: block;
+    color: #2d353c;
+    font-size: 20px;
+    line-height: 20px;
+    display: block;
+}
+
+
+/* 2.3 Navbar Mobile Toggle */
+
+.navbar-toggle {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+
+/* 2.4 Navbar Default Setting  */
+
+.header.navbar.navbar-default {
+    background: #fff;
+}
+
+
+/* 2.7 Navbar Dropdown */
+
+.navbar-nav > li.dropdown:hover > .dropdown-menu,
+.navbar-nav > li.dropdown:focus > .dropdown-menu {
+    display: block;
+}
+.navbar-nav .dropdown-menu {
+    background: #333;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    font-size: 12px;
+    padding: 0;
+    margin-top: 0;
+    border: none;
+}
+.navbar-nav .dropdown-menu > li > a {
+    color: #999;
+    padding: 10px 15px;
+}
+.navbar-nav .dropdown-menu > li.active > a,
+.navbar-nav .dropdown-menu > li > a:hover,
+.navbar-nav .dropdown-menu > li > a:focus {
+    background: #222;
+    color: #00acac;
+}
+.navbar-nav .dropdown-menu > li + li {
+    border-top: 1px solid #444;
+}
+
+
+
+/* -------------------------------
+   3.0 Content Setting
+------------------------------- */
+
+/* 3.1 General Content Setting */
+
+.content {
+    padding: 60px 15px 75px;
+}
+.content .content-title {
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    margin-top: 0;
+}
+.content .content-title:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 40px;
+    background: #242a30;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -20px;
+}
+.content .content-desc {
+    text-align: center;
+    margin-bottom: 60px;
+    color: #242a30;
+}
+.content.has-bg {
+    padding-bottom: 60px;
+    overflow: hidden;
+    position: relative;
+}
+.content.has-bg .content-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.content.has-bg .content-bg img {
+    max-width: 100%;
+}
+.content.has-bg .content-title:after {
+    background: #fff;
+}
+.content.has-bg .content-bg:before {
+    content: '';
+    background: url(../img/content-bg-cover.png);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.content.has-bg .container {
+    position: relative;
+}
+.content.has-bg .container .content-title {
+    color: #fff;
+}
+.content.has-bg .container .content-desc {
+    color: rgba(255,255,255,0.6);
+}
+.content.has-bg h1,
+.content.has-bg h2,
+.content.has-bg h3,
+.content.has-bg h4,
+.content.has-bg h5,
+.content.has-bg h6 {
+    color: #fff;
+}
+
+
+
+/* -------------------------------
+   4.0 Home Setting
+------------------------------- */
+
+/* 4.1 Home Element Setting */
+
+.home {
+    padding: 0 !important;
+    color: #fff;
+}
+.home-content {
+    z-index: 1020;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    color: #8F8E8E;
+    margin-top: -120px;
+    padding: 0 15px;
+    text-align: center;
+}
+.home-content h1,
+.home-content h2,
+.home-content h3,
+.home-content h4 {
+    color: #fff;
+    margin: 0 0 30px;
+    font-weight: 300;
+}
+.home-content h1 {
+    font-size: 64px;
+    font-weight: 600;
+}
+.home-content h3 {
+    font-size: 32px;
+}
+.home-content p {
+    margin-bottom: 60px;
+}
+.home-content a:hover,
+.home-content a:focus {
+    color: #fff;
+}
+.home-content .btn + .btn {
+    margin-left: 15px;
+}
+
+
+
+/* -------------------------------
+   5.0 About Us Setting
+------------------------------- */
+
+/* 5.1 About Us Author Setting */
+
+.about-author {
+    position: relative;
+}
+.about-author .quote {
+    position: relative;
+    padding: 30px 60px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+.about-author .quote:before {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: 95px;
+    border: 10px solid transparent;
+    border-top-color: #f0f3f4;
+    border-left-color: #f0f3f4;
+}
+.about-author .quote h3 {
+    margin: 0;
+    font-weight: 300;
+    color: #707478;
+    font-style: italic;
+    line-height: 30px;
+}
+.about-author .fa.fa-quote-left,
+.about-author .fa.fa-quote-right {
+    font-size: 14px;
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    margin-top: -14px;
+    line-height: 28px;
+    top: 30px;
+    color: #D5D9DA;
+}
+.about-author .fa.fa-quote-right {
+    left: auto;
+    right: 30px;
+    bottom: 30px;
+    margin-top: 0;
+    margin-bottom: -14px;
+    top: auto;
+}
+.about-author .author {
+    position: relative;
+    text-align: right;
+    padding-left: 100px;
+    margin-bottom: 15px;
+}
+.about-author .author .image {
+    position: absolute;
+    left: -10px;
+    top: -40px;
+    background: #fff;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    width: 100px;
+    overflow: hidden;
+}
+.about-author .author .image img {
+    max-width: 100%;
+}
+.about-author .author .info {
+    color: #242a30;
+    font-weight: 600;
+    font-size: 14px;
+}
+.about-author .author .info small {
+    display: block;
+    color: #999;
+    font-size: 12px;
+    font-weight: normal;
+}   
+.about-author .author .info a {
+    font-weight: normal;
+    font-size: 12px;
+    display: block;
+}
+
+
+
+/* -------------------------------
+   7.0 Quote Setting
+------------------------------- */
+
+/* 7.1 Quote Element Setting */
+
+.quote {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 300;
+    color: #fff;
+    color: rgba(255,255,255,0.9);
+}
+.quote .fa-quote-left,
+.quote .fa-quote-right {
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+    top: -14px;
+}
+.quote small {
+    display: block;
+    font-size: 14px;
+    color: rgba(255,255,255,0.6);
+    margin-top: 20px;
+}
+
+
+
+/* -------------------------------
+   8.0 Service Setting
+------------------------------- */
+
+/* 8.1 Service Element Setting */
+
+.service {
+    margin-bottom: 30px;
+}
+.service .icon {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: #242a30;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+.service .title {
+    margin-bottom: 5px;
+}
+.service .icon + .info {
+    margin-left: 70px;
+}
+.service.service-vertical {
+    text-align: center;
+}
+.service.service-vertical .icon {
+    float: none;
+    margin: 0 auto 15px;
+}
+.service.service-vertical .info {
+    margin: 0;
+}
+
+
+
+/* -------------------------------
+   12.0 Pricing Setting
+------------------------------- */
+
+/* 12.1 Pricing Element Setting */
+
+.pricing-table {
+    list-style-type: none;
+    margin: 0 -10px;
+    padding: 0;
+    text-align: center;
+}
+.pricing-table > li {
+    float: left;
+    padding: 10px;
+}
+.pricing-table.col-4 > li {
+    width: 25%;
+}
+.pricing-table.col-3 > li {
+    width: 33.33333%;
+}
+.pricing-table .pricing-container {
+    overflow: hidden;
+    border-radius: 6px;
+    background: #f0f3f4;
+    box-shadow: 0 3px #b6c2c9;
+}
+.pricing-table h3 {
+    background: #242a30;
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+    padding: 15px 30px;
+}
+.pricing-table .features {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 30px;
+}
+.pricing-table .features > li {
+    padding: 10px 0;
+}
+.pricing-table .features > li + li {
+    border-top: 1px solid #e2e7eb;
+}
+.pricing-table .price {
+    width: 100%;
+    display: table;
+    background: #2d353c;
+}
+.pricing-table .price .price-figure {
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+    height: 80px;
+}
+.pricing-table .price .price-number {
+    font-size: 28px;
+    color: #00a3a3;
+    display: block;
+}
+.pricing-table .price .price-tenure {
+    font-size: 12px;
+    color: #fff;
+    color: rgba(255, 255, 255, 0.7);
+    display: block;
+    text-align: center;
+}
+.pricing-table .footer {
+    padding: 15px 20px;
+}
+.pricing-table .highlight {
+    padding: 0px;
+    margin-top: -30px;
+}
+.pricing-table .highlight .features > li {
+    padding: 15px 0;
+}
+.pricing-table .highlight h3 {
+    padding: 20px 30px;
+}
+.pricing-table .highlight .price .price-figure {
+    height: 90px;
+}
+.pricing-table .highlight .price .price-number {
+    color: #fff;
+}
+
+
+/* -------------------------------
+   13.0 Footer Setting
+------------------------------- */
+
+/* 13.1 Footer Element Setting */
+
+.footer {
+    padding: 60px 0;
+    background: #242a30;
+    text-align: center;
+    box-shadow: inset 0 100px 80px -80px rgba(0,0,0,0.7);
+    -webkit-box-shadow: inset 0 100px 80px -80px rgba(0,0,0,0.7);
+}
+.footer .footer-brand-logo {
+    display: block;
+    margin: 0 auto 10px;
+    width: 40px;
+    border: 20px solid;
+    border-color: #4DCACA #31A3A3 #1D8888;
+    border-radius: 4px;
+}
+.footer .footer-brand {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.footer .social-list {
+    margin: 30px 0 0;
+    font-size: 20px;
+}
+
+
+
+/* -------------------------------
+   14.0 Pace Loader Setting
+------------------------------- */
+
+/* 14.1 Pace Loader Element Setting */
+
+.pace-inactive {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.pace {
+    background: #2d353c;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+    z-index: 1020;
+}
+.pace-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    height: 2px;
+    background: #00acac;
+    -webkit-transition: width 1s;
+    -moz-transition: width 1s;
+    -o-transition: width 1s;
+    transition: width 1s;
+    z-index: 2000;
+}
+.pace:before {
+    content: '';
+    background: #242a30;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 2px;
+}
+.pace .pace-activity {
+    display: block;
+    position: fixed;
+    z-index: 2000;
+    top: 15px;
+    right: 15px;
+    width: 14px;
+    height: 14px;
+    border: solid 2px transparent;
+    border-top-color: #00acac;
+    border-left-color: #00acac;
+    border-radius: 10px;
+    -webkit-animation: pace-spinner 400ms linear infinite;
+    -moz-animation: pace-spinner 400ms linear infinite;
+    -ms-animation: pace-spinner 400ms linear infinite;
+    -o-animation: pace-spinner 400ms linear infinite;
+    animation: pace-spinner 400ms linear infinite;
+}
+@-webkit-keyframes pace-spinner {
+  0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+@-moz-keyframes pace-spinner {
+  0% { -moz-transform: rotate(0deg); transform: rotate(0deg); }
+  100% { -moz-transform: rotate(360deg); transform: rotate(360deg); }
+}
+@-o-keyframes pace-spinner {
+  0% { -o-transform: rotate(0deg); transform: rotate(0deg); }
+  100% { -o-transform: rotate(360deg); transform: rotate(360deg); }
+}
+@-ms-keyframes pace-spinner {
+  0% { -ms-transform: rotate(0deg); transform: rotate(0deg); }
+  100% { -ms-transform: rotate(360deg); transform: rotate(360deg); }
+}
+@keyframes pace-spinner {
+  0% { transform: rotate(0deg); transform: rotate(0deg); }
+  100% { transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+
+
+/* -------------------------------
+   15.0 Predefined CSS Setting
+------------------------------- */
+
+/* 15.1 Predefined Classes */
+
+.row { margin: 0 -10px; }
+.row > [class*="col-"] {  padding: 0 10px; }
+
+.bg-silver-lighter { background: #f4f6f7 !important; }
+.bg-silver { background: #f0f3f4 !important; }
+
+
+
+/* -------------------------------
+   16.0 Basic Element Setting
+------------------------------- */
+
+/* 16.1 Component - Button */
+
+.btn {
+    padding: 15px 30px;
+    font-size: 14px;
+    font-weight: 500;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.btn.btn-outline {
+    color: #fff;
+    border-width: 2px;
+    border-color: #8F8E8E;
+    background: none;
+}
+.btn.btn-outline:hover,
+.btn.btn-outline:focus {
+    border-color: #fff;
+}
+.btn > .pull-left, 
+.btn > .pull-right {
+    line-height: 1.428571429;
+}
+.btn-block {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.btn:active,
+.btn.active {
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/* 16.1.1 Component - Button - Default */
+
+.btn.btn-default {
+    color: #fff;
+    background: #b6c2c9;
+    border-color: #b6c2c9;
+}
+.btn-default:hover, 
+.btn-default:focus, 
+.btn-default:active, 
+.btn-default.active, 
+.open .dropdown-toggle.btn-default {
+    background: #929ba1;
+    border-color: #929ba1;
+}
+.btn-group .btn.btn-default:not(.active) + .btn.btn-default,
+.input-group-btn .btn.btn-default:not(.active) + .btn.btn-default {
+    border-left-color: #929ba1;
+}
+
+
+/* 16.1.2 Component - Button - White */
+
+.btn.btn-white {
+    font-weight: normal;
+    color: #333;
+    background: #fff;
+    border-color: #e2e7eb;
+}
+.btn.btn-white.btn-white-without-border {
+    border-color: #fff;
+}
+.btn.btn-white.btn-white-without-border.active,
+.btn.btn-white.btn-white-without-border.active:hover,
+.btn.btn-white.btn-white-without-border.active:focus {
+    border-color: #ddd;
+}
+.btn.btn-white.btn-white-without-border:hover,
+.btn.btn-white.btn-white-without-border:focus {
+    border-color: #eee;
+}
+.btn-white:hover, 
+.btn-white:focus, 
+.btn-white:active, 
+.btn-white.active,
+.open .dropdown-toggle.btn-white {
+    background: #e2e7eb;
+    border-color: #d8dde1;
+}
+.btn-group .btn.btn-white:not(.active) + .btn.btn-white,
+.input-group-btn .btn.btn-white:not(.active) + .btn.btn-white {
+    border-left-color: #eee;
+}
+
+
+/* 16.1.3 Component - Button - Inverse */
+
+.btn.btn-inverse {
+    color: #fff;
+    background: #2d353c;
+    border-color: #2d353c;
+}
+.btn-inverse:hover, 
+.btn-inverse:focus, 
+.btn-inverse:active, 
+.btn-inverse.active, 
+.open .dropdown-toggle.btn-inverse {
+    background: #242a30;
+    border-color: #242a30;
+}
+.btn-group .btn.btn-inverse:not(.active) + .btn.btn-inverse,
+.input-group-btn .btn.btn-inverse:not(.active) + .btn.btn-inverse {
+    border-left-color: #242a30;
+}
+
+
+/* 16.3 Component - From Control */
+
+.form-control {
+    border: 2px solid #ccd0d4;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-size: 12px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+
+.form-control:focus {
+    border-color: #9fa2a5;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+label {
+    font-weight: 500;
+}
+
+
+/* 16.15 Component - Panel */
+
+.panel {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.panel.panel-no-rounded-corner .panel-heading,
+.panel.panel-no-rounded-corner .panel-body,
+.panel.panel-no-rounded-corner .panel-footer {
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+.panel-heading {
+    padding: 10px 15px;
+    border: none;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+.panel-heading + .table,
+.panel-heading + .slimScrollDiv {
+    border-top: 1px solid #ddd;
+}
+.panel-heading-btn {
+    float: right;
+}
+.panel-heading-btn > a {
+    margin-left: 8px;
+}
+.panel-heading .btn-group .btn {
+    margin-top: -7px;
+}
+.panel-heading .btn-group .btn.btn-sm {
+    margin-top: -5px;
+}
+.panel-heading .btn-group .btn.btn-xs {
+    margin-top: -1px;
+}
+.panel-heading .label.pull-left,
+.panel-heading .label.pull-right {
+    line-height: 15px;
+}
+.panel-heading .progress.pull-right,
+.panel-heading .progress.pull-left {
+    width: 40%;
+    min-width: 120px;
+}
+.panel-heading + .alert {
+    margin-bottom: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.panel-with-tabs .panel-heading {
+    background: #c1ccd1 !important;
+    color: #333 !important;
+}
+.panel-heading .nav-tabs {
+    margin-top: -10px;
+    margin-right: -15px;
+}
+.panel-heading .nav-tabs > li > a {
+    padding: 10px 15px;
+    line-height: 20px;
+}
+.panel-title {
+    line-height: 20px;
+    font-size: 12px;
+}
+.panel-title .accordion-toggle {
+    margin: -10px -15px;
+    padding: 10px 15px;
+}
+.panel-title .accordion-toggle.accordion-toggle-styled .fa:before {
+    content: '\f056';
+}
+.panel-title .accordion-toggle.accordion-toggle-styled.collapsed .fa:before {
+    content: '\f055';
+}
+.panel-title .pull-right {
+    line-height: 20px;
+}
+.panel-toolbar {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 10px 15px;
+    background: #fff;
+}
+.panel-toolbar + .form-control {
+    margin: -1px 0 0;
+    border-right: none;
+    border-left: none;
+}
+.panel-group .panel {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.form-control + .panel-footer {
+    border-top: none;
+}
+.panel-body {
+    padding: 15px;
+}
+.panel-body.no-border {
+    border: none !important;
+}
+.panel-body.panel-table,
+.panel-body.panel-form,
+.panel-body.no-padding,
+.panel-body.panel-full-width {
+    padding: 0 !important;
+}
+.panel-body.with-table > .table {
+    border: 0;
+    margin: 0;
+}
+.panel-body.with-table > .table tr:last-child th,
+.panel-body.with-table > .table tr:last-child td{
+    border-bottom: 0;
+}
+.panel-default > .panel-heading + .panel-collapse .panel-body {
+    border-top: 1px solid #ddd;
+}
+.panel-footer {
+    background: #fff;
+    border-top: 1px solid #ddd;
+}
+.panel .tab-content {
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+}
+.panel-default > .panel-heading {
+    background: #fafafa;
+}
+.panel-inverse > .panel-heading,
+.panel-success > .panel-heading,
+.panel-warning > .panel-heading,
+.panel-danger > .panel-heading,
+.panel-primary > .panel-heading,
+.panel-info > .panel-heading {
+    color: #fff;
+}
+.panel-inverse { border-color: #242a30; }
+.panel-inverse > .panel-heading { background: #242a30; }
+.panel-success { border-color: #008a8a; }
+.panel-success > .panel-heading { background: #008a8a; }
+.panel-warning { border-color: #c47d15; }
+.panel-warning > .panel-heading { background: #c47d15; }
+.panel-danger { border-color: #cc4946; }
+.panel-danger > .panel-heading { background: #cc4946; }
+.panel-primary { border-color: #2a72b5; }
+.panel-primary > .panel-heading { background: #2a72b5; }
+.panel-info { border-color: #3a92ab; }
+.panel-info > .panel-heading { background: #3a92ab; }
+.panel-inverse .panel-heading a:hover,
+.panel-inverse .panel-heading a:focus,
+.panel-success .panel-heading a:hover,
+.panel-success .panel-heading a:focus,
+.panel-warning .panel-heading a:hover,
+.panel-warning .panel-heading a:focus,
+.panel-danger .panel-heading a:hover,
+.panel-danger .panel-heading a:focus,
+.panel-primary .panel-heading a:hover,
+.panel-primary .panel-heading a:focus,
+.panel-info .panel-heading a:hover,
+.panel-info .panel-heading a:focus {
+    color: #fff;
+}
+
+/* -------------------------------
+   6.0 Post Setting
+------------------------------- */
+
+/* 6.1 Post List Setting */
+
+.post-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.post-list > li:before,
+.post-list > li:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.post-list > li {
+    padding: 0;
+}
+.post-list > li + li {
+    margin-top: 60px;
+}
+.post-left-info {
+    width: 50px;
+    float: left;
+    margin-right: 20px;
+}
+.post-date {
+    font-size: 12px;
+    line-height: 1.1;
+    margin: 0 auto 2px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.post-date .day {
+    color: #333;
+    font-size: 24px;
+    display: block;
+}
+.post-date .month {
+    display: block;
+    font-size: 10px;
+    margin-top: 5px;
+    color: #333;
+}
+.post-date + .post-likes {
+    border-top: 2px solid #ddd;
+}
+.post-likes {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 12px;
+}
+.post-left-info + .post-content {
+    margin-left: 70px;
+}
+.post-image {
+    padding-top: 56%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 25px;
+}
+.post-image.post-image-with-carousel {
+    padding-top: 0;
+}
+.post-image.post-image-with-carousel .item {
+    padding-top: 56%;
+    overflow: hidden;
+}
+.post-image img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    max-width: 100%;
+}
+.post-video {
+    margin-bottom: 25px;
+}
+.post-list blockquote {
+    border: none;
+    background: #e9edef;
+    font-size: 18px;
+    padding: 30px;
+    color: #000;
+    margin-bottom: 25px;
+}
+.post-title {
+    margin: 0 0 5px;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000;
+}
+.post-title a {
+    color: #000;
+}
+.post-by {
+    display: block;
+    font-size: 11px;
+    color: #666;
+    margin-bottom: 15px;
+    line-height: 20px;
+    padding: 0 0;
+}
+.post-by .divider {
+    margin: 0 5px;
+    font-size: 10px;
+    color: #333;
+    position: relative;
+    top: -1px;
+}
+.post-desc {
+    line-height: 20px;
+    color: #696969;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+.read-btn-container {
+    text-align: right;
+    font-size: 12px;
+}
+.read-btn-container a {
+    color: #333;
+}

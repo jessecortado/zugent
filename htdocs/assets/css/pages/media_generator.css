@@ -1,0 +1,25 @@
+
+.img-box {
+    border: 2px dotted rgba(0, 0, 0, 0);
+    height: 350px;
+    text-align: center;
+    vertical-align: middle;
+    /* display: table-cell; */
+}
+
+.img-box.selected, .img-box:hover {
+    border: 2px dotted #01acac;
+}
+
+#modal-frame .modal-body, #modal-image .modal-body {
+    background: #ddd;
+}
+
+#selected-image-name, #selected-frame-name {
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+#modal-frame, #modal-image {
+    padding-bottom: 40px;
+}

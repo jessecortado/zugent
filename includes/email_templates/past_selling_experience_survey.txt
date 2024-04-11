@@ -1,0 +1,26 @@
+Hidden Field (FirstName)
+Hidden Field (LastName)
+Hidden Field (Email)
+ 	
+Thanks for taking the time to complete this quick questionnaire about previous experiences you’ve had trying to sell your home.I use this information to provide the highest quality service to my clients. Your feedback is appreciated.
+ 
+1. What was the #1 Complaint/Disappointment about your last listing experience?
+A). Agent listed the property and I never heard from them again.
+B.) Agent didn’t get the pricing strategy right from the beginning.
+C.) Agent didn’t market my home just put it in the MLS.
+D.) Agent wouldn’t let me out of my contract when I requested.
+ 
+2. What are you looking for in the next agent you choose?
+A.) Aggressive Marketing
+B.) Communication/Follow Up
+C.) Track Record of Success
+D.) Knowledge about market trends outside of the comps
+ 
+3. What form of communication do you prefer from your Agent?
+A.) Phone/Personal Conversations
+B.) Email
+C.) Text/Instant Messages
+ 
+Thanks so much for completing this quick questionnaire.  I appreciate your feedback!.
+ 
+Submit

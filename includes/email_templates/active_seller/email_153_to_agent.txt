@@ -1,0 +1,23 @@
+~Owner.FirstName~,
+
+You have had this listing for approximately 5 months and it could be about to expire.
+
+The 5th month is another place where a lot of owners start looking for another agent. You can get more extensions by staying in contact with your seller. An extension is just like a new listing.
+
+It is recommended that you call the seller immediately and ask for an extension.
+
+Let the seller know you are committed to getting this sold and you will continue to be creative with ways to generate more demand for their property.
+
+Getting a 6-month extension is like taking a new listing.
+
+Prospect Information:
+
+First: ~Contact.FirstName~
+
+Last: ~Contact.LastName~
+
+Phone: ~Contact.Phone1~
+
+Email: ~Contact.Email~
+
+A Greg Harrelson Real Estate Tip

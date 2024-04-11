@@ -1,0 +1,25 @@
+@media screen and (min-width: 992px) {
+	button.btn.ellips {
+		overflow: hidden;
+	    text-overflow: ellipsis;
+	    white-space: nowrap;
+	    width: 100%;
+	}
+}
+@media screen and (max-width: 767px) {
+	.table-responsive {
+	    border: none;
+	    margin-bottom: 1px;
+	}
+	h1.page-header {
+		display: inline-block;
+	}
+}
+@media screen and (max-width: 414px) {
+	a.btn.ellips {
+		overflow: hidden;
+	    text-overflow: ellipsis;
+	    white-space: nowrap;
+	    max-width: 95px;
+	}
+}

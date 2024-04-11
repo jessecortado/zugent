@@ -1,0 +1,22 @@
+Quarterly Contact Reminder - Every 90 days
+-----
+
+~Owner.FirstName~,
+
+This person has been in your General Seller database for 90 days now. We know that it is important that you call your database 4 times per year – once per quarter.
+
+It's been 90 days, so you may want to reach out to this person.
+
+Prospect Information:
+
+First: ~Contact.FirstName~
+
+Last: ~Contact.LastName~
+
+Phone: ~Contact.Phone1~
+
+Email: ~Contact.Email~
+
+Best of luck…
+
+Suggested by Greg Harrelson

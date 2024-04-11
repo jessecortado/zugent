@@ -1,0 +1,17 @@
+~Owner.FirstName~,
+
+Do not let the fact that the property has not sold keep you from being in communication with your seller.
+
+Remember, it is better to call them before they call you.
+
+Prospect Information:
+
+First: ~Contact.FirstName~
+
+Last: ~Contact.LastName~
+
+Phone: ~Contact.Phone1~
+
+Email: ~Contact.Email~
+
+A Greg Harrelson Real Estate Tip
